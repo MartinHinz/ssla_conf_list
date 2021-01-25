@@ -1,0 +1,42 @@
+{{ partial "header.html" . }}
+{{ partial "meta.html" . }}
+
+<main class="content" role="main">
+
+  <conference class="conference">
+    {{ if eq .Section "post" }}
+    <span class="conference-duration">{{ .ReadingTime }} min read</span>
+    {{ end }}
+
+    <h1 class="conference-title">{{ .Title }}<br>
+    <span class="article-date">{{ if ne .Params.StartDate nil }}
+
+<!-- Starting day -->
+{{ dateFormat "Monday, 2. January" .Params.StartDate }}
+
+{{ if ne .Params.EndDate nil }}
+  <!-- If its more than one day -->
+  {{ if ne (dateFormat "2. January" .Params.StartDate) (dateFormat "2. January" .Params.EndDate) }}
+   &ndash; {{ dateFormat "Monday, 2. January" .Params.EndDate }}
+  {{ end }}
+{{ end }}
+
+<!-- If its not the current year -->
+{{ if ne (dateFormat "2006" .Params.StartDate) (dateFormat "2006" now) }}
+  <!-- Show the year -->
+  {{ dateFormat "2006" .Params.StartDate }}
+{{ end }}
+
+{{ end }}
+      </span></h1>
+
+    <div class="conference-content">
+      {{ .Content }}
+    </div>
+  </conference>
+
+  {{ partial "disqus.html" .}}
+
+</main>
+
+{{ partial "footer.html" . }}

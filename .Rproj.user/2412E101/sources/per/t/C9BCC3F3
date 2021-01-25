@@ -1,0 +1,25 @@
+{
+    "id": "C9BCC3F3",
+    "path": "~/r_projekte/ssla_conf_list/csv2md.R",
+    "project_path": "csv2md.R",
+    "type": "r_source",
+    "hash": "1107386090",
+    "contents": "",
+    "dirty": false,
+    "created": 1610724626770.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "tempName": "Untitled1",
+        "cursorPosition": "52,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1610729173,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1610729173601,
+    "read_only": false,
+    "read_only_alternatives": []
+}
