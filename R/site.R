@@ -31,7 +31,7 @@ generate_post_md <- function(slug, title, Description, ..., path) {
   # Preserve some values as singletons
   front_matter$title <- unbox(front_matter$title)
   front_matter$links <- map(front_matter$links, unbox)
-  front_matter$tags <- map(front_matter$tags, unbox)
+#  front_matter$tags <- map(front_matter$tags, unbox)
   #front_matter$date <- unbox(front_matter$`StartDate`)
   front_matter$EndDate <- unbox(front_matter$`EndDate`)
   front_matter$StartDate <- unbox(front_matter$`StartDate`)
