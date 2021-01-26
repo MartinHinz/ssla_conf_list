@@ -31,9 +31,28 @@ generate_post_md <- function(slug, title, Description, ..., path) {
   # Preserve some values as singletons
   front_matter$title <- unbox(front_matter$title)
   front_matter$links <- map(front_matter$links, unbox)
-  front_matter$date <- unbox(front_matter$`StartDate`)
+  front_matter$tags <- map(front_matter$tags, unbox)
+  #front_matter$date <- unbox(front_matter$`StartDate`)
   front_matter$EndDate <- unbox(front_matter$`EndDate`)
   front_matter$StartDate <- unbox(front_matter$`StartDate`)
+  front_matter$Country <- unbox(front_matter$`Country`)
+
+  front_matter$Location <- unbox(
+    ifelse(!is.na(front_matter$`Location`),
+           front_matter$`Location`,
+           "No Location available")
+  )
+  
+  front_matter$Venue <-  unbox(
+    ifelse(!is.na(front_matter$`Venue`),
+           front_matter$`Venue`,
+           "No Venue available")
+  )
+  
+  front_matter$SessionDeadline <- unbox(front_matter$`SessionDeadline`)  
+  front_matter$TalkDeadline <- unbox(front_matter$`TalkDeadline`) 
+  
+  Description <- ifelse(!is.na(Description), Description, "No Details available.")
   
   front_matter <- toJSON(front_matter, auto_unbox	= FALSE, pretty = TRUE)
   

@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+
+<main class="content" role="main">
+<h1>Upcoming Conferences</h1>
+  <div class="archive">
+    {{ range (where site.RegularPages "Type" "in" site.Params.mainSections).GroupByParamDate "StartDate" "2006" "asc" }}
+    <h2 class="archive-title">{{ .Key }}</h2>
+    {{ range .Pages }}
+    <article class="archive-item">
+      <a href="{{ .Permalink }}" class="archive-item-link">{{ .Title }}</a>
+      <span class="archive-item-date">
+        {{ dateFormat "Jan 2, 2006" .Params.StartDate }}
+      </span>
+    </article>
+    {{ end }}
+    {{ end }}
+  </div>
+
+</main>
+
+{{ partial "footer.html" . }}

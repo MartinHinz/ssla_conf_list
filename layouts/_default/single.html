@@ -30,8 +30,11 @@
 {{ end }}
       </span></h1>
 
+    <div class="conference-location">
+      {{ .Params.Location }}: {{ .Params.Venue }}
+    </div>
     <div class="conference-content">
-      {{ .Content }}
+        {{ .Content }}
     </div>
   </conference>
 

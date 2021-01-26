@@ -28,6 +28,8 @@ conf_list %<>%
       ))),
     StartDate = `Start Date`,
     EndDate = `End Date`,
+    SessionDeadline = `Session Deadline`,
+    TalkDeadline = `Talk Deadline`,
     tags = list(cnotna(str_split(Tags,"\\|")))
   ) %>% 
   ungroup() %>%
@@ -41,8 +43,8 @@ conf_list %<>%
          Location,
          Country,
          Venue,
-         `Session Deadline`,
-         `Talk Deadline`
+         SessionDeadline,
+         TalkDeadline
 )
 
 # Generate .md files
