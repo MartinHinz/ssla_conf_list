@@ -1,4 +1,4 @@
-baseurl: /
+baseurl: "https://martinhinz.github.io/ssla_conf_list/"
 languageCode: en-us
 title: A Hugo website
 theme: hugo-lithium
