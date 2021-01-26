@@ -16,6 +16,10 @@ jobs:
         run: Rscript -e 'install.packages(c("rmarkdown","blogdown"))'
       - name: Install Hugo
         run: Rscript -e 'blogdown::install_hugo()'
+      - name: Generate pages from csv
+        run: |
+          source("csv2md.R")
+        shell: Rscript {0} 
       - name: Build site
         run: Rscript -e 'blogdown::build_site()'
       - name: Deploy to gh-pages
