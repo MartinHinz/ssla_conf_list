@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on A Hugo website</title>
-    <link>/categories/</link>
+    <link>https://martinhinz.github.io/ssla_conf_list/categories/</link>
     <description>Recent content in Categories on A Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://martinhinz.github.io/ssla_conf_list/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
