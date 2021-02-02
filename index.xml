@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>A Hugo website</title>
+    <title>SSLA Conference List</title>
     <link>https://martinhinz.github.io/ssla_conf_list/</link>
-    <description>Recent content on A Hugo website</description>
+    <description>Recent content on SSLA Conference List</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://martinhinz.github.io/ssla_conf_list/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://martinhinz.github.io/ssla_conf_list/about/</link>
-      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+      <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://martinhinz.github.io/ssla_conf_list/about/</guid>
-      <description>This is a &amp;ldquo;hello world&amp;rdquo; example website for the blogdown package. The theme was forked from @jrutheiser/hugo-lithium-theme and modified by Yihui Xie.</description>
+      <description>Here is a list of conferences on Scientific Scripting Languages in Archaeology around the World.
+If you would like to add a conference, please submit a pull request.
+The goal is to make it easier for speakers, instructors and participants to find your conference. Open an issue to get yourself added to the repo.</description>
     </item>
     
     <item>
