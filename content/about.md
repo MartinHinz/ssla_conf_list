@@ -1,6 +1,10 @@
 ---
-date: "2016-05-05T21:48:51-07:00"
+date: "2021-02-02"
 title: About
 ---
 
-This is a "hello world" example website for the [**blogdown**](https://github.com/rstudio/blogdown) package. The theme was forked from [@jrutheiser/hugo-lithium-theme](https://github.com/jrutheiser/hugo-lithium-theme) and modified by [Yihui Xie](https://github.com/yihui/hugo-lithium).
+Here is a list of conferences on Scientific Scripting Languages in Archaeology around the World.
+
+If you would like to add a conference, please submit a pull request.
+
+The goal is to make it easier for speakers, instructors and participants to find your conference. Open an issue to get yourself added to the repo.
