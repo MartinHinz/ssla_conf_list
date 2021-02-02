@@ -32,7 +32,7 @@ additional optional fields. Inspired by python-organizers/conferences.
 | Location          | Location of the event                      | Text                              | used by Google Calendar           |
 | Country           | Country code                               | \[ISO 3166-1 alpha-3\]\[ISO3166\] |                                   |
 | Venue             | Name of event venue                        | Text                              | e.g. “Oregon Convention Center”   |
-| Tutorial Deadline | Last day for tutorial proposal submissions | YYYY-MM-DD                        |                                   |
+| Session Deadline  | Last day for Session proposal submissions  | YYYY-MM-DD                        |                                   |
 | Talk Deadline     | Last day for talk proposal submissions     | YYYY-MM-DD                        |                                   |
 | Website URL       | Event website                              | URL                               |                                   |
 | Proposal URL      | Proposal information                       | URL                               |                                   |
