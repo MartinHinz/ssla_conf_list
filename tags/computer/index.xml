@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer on SSLA Conference List</title>
+    <link>https://martinhinz.github.io/ssla_conf_list/tags/computer/</link>
+    <description>Recent content in Computer on SSLA Conference List</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://martinhinz.github.io/ssla_conf_list/tags/computer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CAA 2021</title>
+      <link>https://martinhinz.github.io/ssla_conf_list/1/01/01/caa-2021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinhinz.github.io/ssla_conf_list/1/01/01/caa-2021/</guid>
+      <description>CAA2021 is going digital</description>
+    </item>
+    
+  </channel>
+</rss>

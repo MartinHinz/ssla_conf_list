@@ -1,0 +1,23 @@
+.conference-date {
+  color: #aaa;}
+
+h2.archive-title {
+  text-align: right;
+}
+h3.archive-title {
+  font-size: 120%;
+  color: #aaa;
+  margin-top: 20px;
+}
+
+div.tags ul li {
+  float: left;
+  list-style-type: none;
+  padding-right: 5px;
+}
+
+div.tags ul li a {
+  text-decoration: none;
+  color: black;
+}
+  
