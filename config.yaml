@@ -20,6 +20,8 @@ menu:
       url: https://github.com/MartinHinz/ssla_conf_list
     - name: Twitter
       url: https://twitter.com/CAA_SSLA
+taxonomies:
+  tag: "tags"
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5

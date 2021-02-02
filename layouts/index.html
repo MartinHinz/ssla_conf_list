@@ -5,6 +5,8 @@
   <div class="archive">
     {{ range (where site.RegularPages "Type" "in" site.Params.mainSections).GroupByParamDate "StartDate" "2006" "asc" }}
     <h2 class="archive-title">{{ .Key }}</h2>
+    {{ range .Pages.GroupByParamDate "StartDate" "Jan" "asc" }}
+    <h3 class="archive-title">{{ .Key }}</h2>
     {{ range .Pages }}
     <article class="archive-item">
       <a href="{{ .Permalink }}" class="archive-item-link">{{ .Title }}</a>
@@ -12,6 +14,7 @@
         {{ dateFormat "Jan 2, 2006" .Params.StartDate }}
       </span>
     </article>
+    {{ end }}
     {{ end }}
     {{ end }}
   </div>

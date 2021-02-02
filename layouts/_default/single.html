@@ -4,13 +4,11 @@
 <main class="content" role="main">
 
   <conference class="conference">
-    {{ if eq .Section "post" }}
-    <span class="conference-duration">{{ .ReadingTime }} min read</span>
-    {{ end }}
+    {{ partial "tags.html" .}}
+    <br>
 
-    <h1 class="conference-title">{{ .Title }}<br>
+    <h1 class="conference-title">{{ .Title }}<br> 
     <span class="article-date">{{ if ne .Params.StartDate nil }}
-
 <!-- Starting day -->
 {{ dateFormat "Monday, 2. January" .Params.StartDate }}
 
@@ -33,8 +31,20 @@
     <div class="conference-location">
       {{ .Params.Location }}: {{ .Params.Venue }}
     </div>
+    <div class="conference-deadlines">
+        <p>Session Submission Deadline: {{ .Params.SessionDeadline }}</p>
+        <p>Talk Submission Deadline: {{ .Params.TalkDeadline }}</p>
+    </div>
     <div class="conference-content">
         {{ .Content }}
+    </div>
+    <div class="conference-links">
+      <ul class="list-unstyled">
+        {{ range $key, $value := .Params.links }}
+          <li>{{ $key | title }}: <a href="{{ $value | absURL }}">{{ $value }}</a>
+          </li>
+        {{ end }}
+      </ul>
     </div>
   </conference>
 

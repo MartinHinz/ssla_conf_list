@@ -3,9 +3,8 @@
   "description": [null],
   "links": {
     "Website": "https://barcamps.eu/pycamp-leipzig-2021",
-    "SponsorshipURL": "https://barcamps.eu/pycamp-leipzig-2021/"
+    "Sponsorship-URL": "https://barcamps.eu/pycamp-leipzig-2021/"
   },
-  "tags": [],
   "StartDate": "2021-01-30",
   "EndDate": "2021-01-30",
   "Location": "Leipzig, Germany",

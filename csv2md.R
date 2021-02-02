@@ -22,9 +22,9 @@ conf_list %<>%
   rowwise() %>% 
   mutate(
     links = list(as.list(cnotna(
-      Website = `Website URL`,
-      ProposalURL = `Proposal URL`,
-      SponsorshipURL = `Sponsorship URL`
+      `Website` = `Website URL`,
+      `Proposal-URL` = `Proposal URL`,
+      `Sponsorship-URL` = `Sponsorship URL`
       ))),
     StartDate = `Start Date`,
     EndDate = `End Date`,

@@ -3,9 +3,8 @@
   "description": [null],
   "links": {
     "Website": "https://de.pycon.org",
-    "SponsorshipURL": "https://de.pycon.org/sponsors/"
+    "Sponsorship-URL": "https://de.pycon.org/sponsors/"
   },
-  "tags": [],
   "StartDate": "2021-10-13",
   "EndDate": "2020-10-15",
   "Location": "Berlin, Germany",

@@ -3,9 +3,8 @@
   "description": [null],
   "links": {
     "Website": "http://2021.geopython.net",
-    "ProposalURL": "https://submit.geopython.net/gp2021/cfp"
+    "Proposal-URL": "https://submit.geopython.net/gp2021/cfp"
   },
-  "tags": [],
   "StartDate": "2021-04-22",
   "EndDate": "2021-04-23",
   "Location": "Basel, Switzerland",
