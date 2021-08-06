@@ -1,54 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://martinhinz.github.io/ssla_conf_list/about/</loc>
     <lastmod>2021-02-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://martinhinz.github.io/ssla_conf_list/tags/application/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://martinhinz.github.io/ssla_conf_list/tags/archaeology/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://martinhinz.github.io/ssla_conf_list/1/01/01/caa-2021/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://martinhinz.github.io/ssla_conf_list/tags/computer/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://martinhinz.github.io/ssla_conf_list/1/01/01/eaa-2021/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://martinhinz.github.io/ssla_conf_list/1/01/01/geopython-2021/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://martinhinz.github.io/ssla_conf_list/post/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://martinhinz.github.io/ssla_conf_list/1/01/01/pycamp-leipzig-2021/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://martinhinz.github.io/ssla_conf_list/1/01/01/pyconde-pydata-berlin-2021/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://martinhinz.github.io/ssla_conf_list/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://martinhinz.github.io/ssla_conf_list/tags/</loc>
   </url>
-  
 </urlset>
