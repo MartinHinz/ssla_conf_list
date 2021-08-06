@@ -5,7 +5,7 @@
     "Website": "https://de.pycon.org",
     "Sponsorship-URL": "https://de.pycon.org/sponsors/"
   },
-  "StartDate": "2021-10-13",
+  "StartDate": "2020-10-13",
   "EndDate": "2020-10-15",
   "Location": "Berlin, Germany",
   "Country": "DEU",
